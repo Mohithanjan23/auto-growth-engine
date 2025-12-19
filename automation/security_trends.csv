@@ -1,0 +1,16 @@
+Scrape_Date,Time,Headline,Sentiment_Label,Sentiment_Score,URL
+2025-12-19,21:39:35,Cracked Software and YouTube Videos Spread CountLoader and GachiLoader Malware, Neutral/Info,0.0,https://thehackernews.com/2025/12/cracked-software-and-youtube-videos.html
+2025-12-19,21:39:35,WatchGuard Warns of Active Exploitation of Critical Fireware OS VPN Vulnerability, Neutral/Info,-0.07,https://thehackernews.com/2025/12/watchguard-warns-of-active-exploitation.html
+2025-12-19,21:39:35,Nigeria Arrests RaccoonO365 Phishing Developer Linked to Microsoft 365 Attacks, Neutral/Info,0.0,https://thehackernews.com/2025/12/nigeria-arrests-raccoono365-phishing.html
+2025-12-19,21:39:35,10 Must-Have Features Your BAS Should Deliver, Neutral/Info,0.0,https://thehackernews.uk/cyber-eval-2025
+2025-12-19,21:39:35,"New UEFI Flaw Enables Early-Boot DMA Attacks on ASRock, ASUS, GIGABYTE, MSI Motherboards", Positive/Update,0.14,https://thehackernews.com/2025/12/new-uefi-flaw-enables-early-boot-dma.html
+2025-12-19,21:39:35,China-Aligned Threat Group Uses Windows Group Policy to Deploy Espionage Malware, Neutral/Info,0.0,https://thehackernews.com/2025/12/china-aligned-threat-group-uses-windows.html
+2025-12-19,21:39:35,"Pentesting With Proof. Zero-Day, Zero-Pay and the #1 AI Hacker Behind It", Critical/Threat,-0.4,https://thehackernews.uk/zero-day-testing
+2025-12-19,21:39:35,HPE OneView Flaw Rated CVSS 10.0 Allows Unauthenticated Remote Code Execution, Neutral/Info,-0.1,https://thehackernews.com/2025/12/hpe-oneview-flaw-rated-cvss-100-allows.html
+2025-12-19,21:39:35,"ThreatsDay Bulletin: WhatsApp Hijacks, MCP Leaks, AI Recon, React2Shell Exploit and 15 More Stories", Positive/Update,0.5,https://thehackernews.com/2025/12/threatsday-bulletin-whatsapp-hijacks.html
+2025-12-19,21:39:35,"North Korea-Linked Hackers Steal $2.02 Billion in 2025, Leading Global Crypto Theft", Neutral/Info,0.0,https://thehackernews.com/2025/12/north-korea-linked-hackers-steal-202.html
+2025-12-19,21:39:35,The Case for Dynamic AI-SaaS Security as Copilots Scale, Neutral/Info,0.0,https://thehackernews.com/2025/12/the-case-for-dynamic-ai-saas-security.html
+2025-12-19,21:39:35,Kimsuky Spreads DocSwap Android Malware via QR Phishing Posing as Delivery App, Neutral/Info,0.0,https://thehackernews.com/2025/12/kimsuky-spreads-docswap-android-malware.html
+2025-12-19,21:39:35,CISA Flags Critical ASUS Live Update Flaw After Evidence of Active Exploitation, Neutral/Info,0.0,https://thehackernews.com/2025/12/cisa-flags-critical-asus-live-update.html
+2025-12-19,21:39:35,Cisco Warns of Active Attacks Exploiting Unpatched 0-Day in AsyncOS Email Security Appliances, Critical/Threat,-0.13,https://thehackernews.com/2025/12/cisco-warns-of-active-attacks.html
+2025-12-19,21:39:35,SonicWall Fixes Actively Exploited CVE-2025-40602 in SMA 100 Appliances, Critical/Threat,-0.13,https://thehackernews.com/2025/12/sonicwall-fixes-actively-exploited-cve.html

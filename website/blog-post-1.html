@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis: Supply Chain Vulnerabilities | CyberSentinel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Page-specific overrides for the article layout */
+        .article-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 48px;
+            margin-top: 2rem;
+        }
+
+        .article-meta {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            align-items: center;
+        }
+
+        .article-body {
+            font-size: 1.05rem;
+            color: var(--text-main);
+        }
+
+        .article-body h2 {
+            margin-top: 2rem;
+            color: var(--primary);
+        }
+
+        .article-body li {
+            margin-bottom: 0.5rem;
+        }
+
+        .sidebar-widget {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+        }
+
+        .widget-title {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .breadcrumb {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+        
+        .breadcrumb a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .article-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="app-header">
+        <div class="container header-content">
+            <div class="brand">
+                <div class="brand-logo">CS</div>
+                <div class="brand-name">CyberSentinel</div>
+            </div>
+            <nav class="app-nav">
+                <a href="index.html" class="nav-link">Dashboard</a>
+                <a href="#" class="nav-link active">Reports</a>
+                <a href="#" class="nav-link">Settings</a>
+            </nav>
+            <div class="system-status">
+                <span class="status-dot"></span> System Operational
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="breadcrumb">
+            <a href="index.html">&larr; Return to Intelligence Feed</a>
+        </div>
+
+        <div class="article-grid">
+            <article>
+                <header>
+                    <h1 style="font-size: 2.5rem; line-height: 1.2;">Deep Dive: Supply Chain Vulnerabilities in Modern SaaS</h1>
+                    
+                    <div class="article-meta">
+                        <span class="status-badge status-critical">CRITICAL ANALYSIS</span>
+                        <span>&bull;</span>
+                        <span>December 19, 2025</span>
+                        <span>&bull;</span>
+                        <span>By Automated Systems</span>
+                    </div>
+                </header>
+
+                <div class="article-body">
+                    <p><strong>Executive Summary:</strong> Recent automated scans have detected a 40% increase in third-party library vulnerabilities across major enterprise sectors. This report details the technical vectors and remediation strategies.</p>
+
+                    <hr style="border: 0; border-top: 1px solid var(--border); margin: 2rem 0;">
+
+                    <h2>The Attack Vector</h2>
+                    <p>Modern applications rely heavily on open-source dependencies. Threat actors are increasingly poisoning these wells rather than attacking the fortress walls directly. Our scrapers detected specific upticks in typo-squatting packages on NPM and PyPI.</p>
+
+                    <h3>Key Findings</h3>
+                    <ul>
+                        <li><strong>Dependency Confusion:</strong> Internal package names are being claimed on public repositories.</li>
+                        <li><strong>Dormant Maintainers:</strong> Attackers are purchasing abandoned projects to inject malware.</li>
+                        <li><strong>CI/CD Pipelines:</strong> Insecure build environments are leaking credentials.</li>
+                    </ul>
+
+                    <h2>Technical Mitigation Strategies</h2>
+                    <p>To secure your automated pipelines, we recommend implementing the following immediately:</p>
+                    
+                    <pre style="background: #f1f5f9; padding: 1rem; border-radius: 6px; overflow-x: auto; font-family: monospace; font-size: 0.9rem;">
+# Example: Secure pip installation
+pip install --require-hashes -r requirements.txt
+# Block access to public index for internal packages
+pip config set global.index-url https://internal-pypi.company.com/simple</pre>
+
+                    <h2>Conclusion</h2>
+                    <p>Automation is the only scalable defense against automated attacks. Organizations must transition from periodic audits to real-time dependency monitoring.</p>
+                </div>
+            </article>
+
+            <aside>
+                <div class="sidebar-widget">
+                    <div class="widget-title">Related Intelligence</div>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="margin-bottom: 12px;">
+                            <a href="#" style="text-decoration: none; color: var(--text-main); font-size: 0.95rem; font-weight: 500;">
+                                📄 API Security Best Practices
+                            </a>
+                        </li>
+                        <li style="margin-bottom: 12px;">
+                            <a href="#" style="text-decoration: none; color: var(--text-main); font-size: 0.95rem; font-weight: 500;">
+                                📄 Zero Trust Architecture Guide
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration: none; color: var(--text-main); font-size: 0.95rem; font-weight: 500;">
+                                📄 Python Automation Scripts
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-widget">
+                    <div class="widget-title">Live System Metrics</div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                        <span style="color: var(--text-muted); font-size: 0.9rem;">Server Load</span>
+                        <span style="font-weight: 600; color: var(--success);">12%</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <span style="color: var(--text-muted); font-size: 0.9rem;">Threat Level</span>
+                        <span style="font-weight: 600; color: var(--warning);">Moderate</span>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="app-footer">
+        <div class="container">
+            <p>&copy; 2025 CyberSentinel Automation Systems. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
